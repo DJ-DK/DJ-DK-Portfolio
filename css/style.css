@@ -11,9 +11,12 @@ html{
     scroll-behavior: smooth;
 }
 #otherarc{
-    color: crimson;  
+    color: crimson;
 }
-
+#otherarc:hover {
+    transition: 1s ease all;
+    background-color: #f1f1f1;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -347,6 +350,9 @@ section .title::after{
 }
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
+}
+.services .serv-content .card:hover #otherarc{
+    color: #FF616D;
 }
 .services .serv-content .card i{
     font-size: 50px;
