@@ -10,6 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
+#otherarc{
+    color: crimson;  
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
